@@ -1,10 +1,13 @@
 {
   "name": "@roxavn/code-convention",
   "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
+  "description": "Code convention of RoxaVN projects",
+  "type": "module",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "build": "tsc"
+  },
+  "bin": {
+    "roxavn-commitlint": "dist/commitlint.js"
   },
   "author": "",
   "license": "ISC",
@@ -13,5 +16,8 @@
   },
   "exports": {
     "./biome": "./biome.json"
+  },
+  "dependencies": {
+    "@commitlint/lint": "^19.7.1"
   }
 }
