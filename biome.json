@@ -25,6 +25,7 @@
       "correctness": {
         "noPrecisionLoss": "error",
         "noUnusedVariables": "error",
+        "noUnusedImports": "error",
         "useArrayLiterals": "off"
       },
       "style": {
