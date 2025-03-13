@@ -4,7 +4,8 @@
   "description": "Code convention of RoxaVN projects",
   "type": "module",
   "scripts": {
-    "build": "tsc"
+    "build": "tsc",
+    "prepublishOnly": "npm run build"
   },
   "bin": {
     "roxavn-commitlint": "dist/commitlint.js"
