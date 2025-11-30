@@ -1,6 +1,6 @@
 {
   "name": "@roxavn/code-convention",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "Code convention of RoxaVN projects",
   "type": "module",
   "scripts": {
